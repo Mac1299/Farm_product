@@ -133,13 +133,11 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 #SMTP Config
 
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'quikewebdev@gmail.com'
-# EMAIL_HOST_PASSWORD = 'Fdrwin#47'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'quikewebdev@gmail.com'
+EMAIL_HOST_PASSWORD = 'Fdrwin#47'
